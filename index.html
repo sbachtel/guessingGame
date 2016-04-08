@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment One</title>
+  </head>
+  <!--I removed all the <br>'s and cleaned up the indentations, Thanks for the help-->
+  <body>
+  <h1>Steve Bachtel</h1>
+  <p>Steve Bachtel was born and raised in Kansas City. While in college he moved to Moorhead, Mn,
+         Aspen, Co, Then lived in Sitka, Alaska for a summer. Before re-locating to Poulsbo, Washington.</p>
+  <h3>Experience</h3>
+  <ul>
+    <li>Freelance Photographer</li>
+    <li>Deckhand on a fishing boat</li>
+    <li>Ski Photographer</li>
+    <li>Detail agent for Enterprise Rent a Car</li>
+  </ul>
+  <h3>Eduction</h3>
+    <ol>
+      <li>B.F.A. Minnesota State Moorhead in photography</li>
+      <li>A.A. Highland Community College in Graphic Design and Photography</li>
+    </ol>
+  <h3>Goals</h3>
+  <p>My goals are...</p>
+    <ul>
+        <li>Build a strong fundtion in javascript</li>
+        <li>Build a strong fundtion in HTML and CSS</li>
+        <li>Find work as a developer</li>
+    </ul>
+          <script type="text/javascript">
+       //Guessing Game, Three questions
+       //Quetions one
+       //Do you own an umbrella
+       //If yes, You are new to the Seattle area
+       //If No, Good real Seattleites don't use umbrallas
+var umbrella = "yes";
+var userInput = prompt("Do you own an umbrella?");
+if(umbrella === userInput){
+  alert("You are new to the Seattle area");
+  console.log("true");
+}else{
+  alert("Good real Seattleites don't use umbrallas");
+  console.log("false");
+}
+//Question two
+//Do you like Sunny weather?
+//If yes, Hope we have a long summer
+//If no, Winter is not that far away
+var sunny = "yes";
+var weather = prompt("Do you like sunny weather?");
+if(sunny === weather){
+  alert("Hope we have a long summer.");
+  console.log("Winter is over");
+}else{
+  alert("Winter is not that far away.");
+  console.log("You are weird");
+}
+//question Three
+//did I do this assignment right
+//if yes, Good
+//if no, Damn!
+var good = "yes";
+var assignment = prompt("Did I do this assignment right?");
+if(good === assignment){
+  alert("Good");
+  console.log("true");
+}else {
+  alert("Damn!");
+  console.log("false");
+}
+//guess a number
+
+var guessNumber = prompt("I'm thinking of a number");
+if(guessNumber < 12){
+  alert("Your too low");
+  console.log("it is 1 more that 11");
+}else if(guessNumber > 12){
+  alert("you are too high");
+  console.log("it's 1 less that 13")
+}else{
+  alter("Good Job")
+  console.log("The answer is 12");
+}
+          </script>
+  </body>
+</html>
