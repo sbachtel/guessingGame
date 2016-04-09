@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Assignment One</title>
+    <title>Bio About Steve</title>
   </head>
   <!--I removed all the <br>'s and cleaned up the indentations, Thanks for the help-->
   <body>
@@ -22,18 +22,18 @@
     </ol>
   <h3>Goals</h3>
   <p>My goals are...</p>
-    <ul>
-        <li>Build a strong fundtion in javascript</li>
-        <li>Build a strong fundtion in HTML and CSS</li>
-        <li>Find work as a developer</li>
-    </ul>
+  <ul>
+      <li>Build a strong fundtion in javascript</li>
+      <li>Build a strong fundtion in HTML and CSS</li>
+      <li>Find work as a developer</li>
+  </ul>
           <script type="text/javascript">
  //Guessing Game, Three questions
  //Quetions one
  //Do you own an umbrella
  //If yes, You are new to the Seattle area
  //If No, Good real Seattleites don't use umbrallas
-var umbrella = "yes";
+/*var umbrella = "yes";
 var userInput = prompt("Do you own an umbrella?");
 if(umbrella === userInput){
   alert("You are new to the Seattle area");
@@ -41,12 +41,12 @@ if(umbrella === userInput){
 }else{
   alert("Good real Seattleites don't use umbrallas");
   console.log("false");
-}
+}*/
 //Question two
 //Do you like Sunny weather?
 //If yes, Hope we have a long summer
 //If no, Winter is not that far away
-var sunny = "yes";
+/*var sunny = "yes";
 var weather = prompt("Do you like sunny weather?");
 if(sunny === weather){
   alert("Hope we have a long summer.");
@@ -83,7 +83,42 @@ if(guessNumber < 12){
 }else{
   alter("Good Job")
   console.log("The answer is 12");
+}/*
+
+// use while loop
+/* example from class
+var counter = 0;
+var userNum = parseInt(prompt("Guess my number"));
+while(counter <= 2){
+  if(userNum === 10){
+    alert("You nailed it");
+    userNum = parseInt(prompt("Guess my number"));
+    console.log("got it right");
+    break;
+  }else if(userNum > 10) {
+    alert("your number was to high");
+    counter++;
+    console.log("the counter is at "+counter);
+    userNum = parseInt(prompt("Guess lower"));
+  }else{
+    alert("your number was too low");
+    counter++;
+    console.log("the counter is at "+counter);
+    userNum = parseInt(prompt("Guess higher"));
+  }
 }
+*/
+//Guessing Game
+var gameYes = "yes" || "YES" ||"Y" ||"y";
+var playGame = prompt("Would you like to play a game?");
+if (gameYes === playGame){
+  alert("Let the games begin.");
+  console.log("You entered yes");
+} else {
+  alert("Maybe Later");
+  console.log("you entered no");
+}
+
           </script>
   </body>
 </html>
