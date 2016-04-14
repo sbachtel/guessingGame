@@ -11,3 +11,8 @@
 # Contact information
   - email: sbachtel@gmail.com
   - phone: 913 558 0518
+
+  ## Driver was Jonathan Daniel
+  Updated guessing game during pair programming.  Added new variables, provided feedback to user via HTML updates using getElementById and textContent.  added a 'for' loop to program to cycle through questions and answers.  
+
+  repository was https://github.com/spamalope01/guessingGame.git
