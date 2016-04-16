@@ -1,7 +1,7 @@
 
-var pElOne = document.getElementById("answerOne");
-var pElTwo = document.getElementById("answerTwo");
-var pElThree = document.getElementById("answerThree");
+var pElOne = document.getElementById('answerOne');
+var pElTwo = document.getElementById('answerTwo');
+var pElThree = document.getElementById('answerThree');
 
 var els = [
   pElOne,
@@ -10,27 +10,28 @@ var els = [
 ];
 
 var questions = [
-  "Do you own an umbrella?",
-  "Do you like sunny weather?",
-  "Did I do this assignment right?",
+  "What is your name?",
+  "Would you like to play a game?",
+  "What number am I thinking of?",
 ];
 
 var answers = [
-  "yes",
-  "no",
-  "yes",
+  "Steve",
+  "Yes",
+  "12",
 ];
 
-var guess = "";
-function game(question, answer, element){
-  guess = prompt(questions[i]);
-  if(guess === answers[i]){
-    element.textContent = "Your correct answer is: " + guess;
-  }else {
-    element.textContent = "Your incorrect answer was: " + guess;
+function game(questionAsked, answerInput, element) {
+  var guess = prompt(questionAsked);
+  if(guess === answerInput){
+      element.textContent = "Your answers is correct: " + guess;
+  } else if(guess === null) {
+      element.textContent = "Please answer the question ";
+  } else {
+      element.textContent = "Your answer is wrong: " + guess;
   }
 }
 
-for (var i = 0; i < questions.length; i++) {
+for (var i = 0; i< questions.length; i++){
   game(questions[i], answers[i], els[i]);
 }
