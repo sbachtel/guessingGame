@@ -16,3 +16,7 @@
   Updated guessing game during pair programming.  Added new variables, provided feedback to user via HTML updates using getElementById and textContent.  added a 'for' loop to program to cycle through questions and answers.  
 
   repository was https://github.com/spamalope01/guessingGame.git
+
+
+  ## 4.16.16
+  Driver was Jonathan Daniel again.  Updated basic CSS stylings.  Updated the js file to accomodate a number answer rather than just string answers.  
