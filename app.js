@@ -54,7 +54,6 @@ function game(questionAsked, answerInput, element) {
         els[i].className = 'incorrect';
         els[i].innerHTML += '<img src = "images/redWrong.png"/>';
       }
-
     }
 }
 
