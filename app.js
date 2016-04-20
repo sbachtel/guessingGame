@@ -32,18 +32,27 @@ function game(questionAsked, answerInput, element) {
     if(isNaN(guess)){
       if(guess === answerInput){
           element.textContent = "Your answers is correct: " + guess;
+          els[i].className = 'correct';
+          els[i].innerHTML += '<img src = "images/checkCorrect.png"/>';
           counter ++;
       } else if(guess === null) {
           element.textContent = "Please answer the question ";
       } else {
           element.textContent = "Your answer is wrong: " + guess;
+          els[i].className = 'incorrect';
+          els[i].innerHTML += '<img src = "images/redWrong.png"/>';
+
       }
     } else {
       if(guess === answers[i]) {
         element.textContent = "You guessed the number correctly " + guess;
+        els[i].className = 'correct';
+        els[i].innerHTML += '<img src = "images/checkCorrect.png"/>';
         counter++
       } else {
         element.textContent = "Your number guess is wrong."
+        els[i].className = 'incorrect';
+        els[i].innerHTML += '<img src = "images/redWrong.png"/>';
       }
 
     }

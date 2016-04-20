@@ -1,20 +1,30 @@
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|Merriweather+Sans);
 
 body {
-  background: #F2f2f2;
+  background: #D3F5FF;
 }
 
 #title {
   font-size: 42px;
-  color: blue;
+  color: #414C4F;
+  font-family: 'Merriweather Sans', sans-serif;
 }
-
+nav{
+  background-color: #9CB5BD;
+  width: 900px;
+  border-radius: 5px 5px 5px 5px;
+  border: 3px solid #414C4F;
+  margin: auto;
+}
 .navBar {
   list-style-type: none;
   display: inline;
-  font: 24px;
-  padding: 10px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 23px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
 }
 
 a {
@@ -22,11 +32,27 @@ a {
 }
 
 main {
-  background-color: #bfbfbf;
-  color: #8c8c8c;
-  width: 900px;
+  background-color: hsla(193, 10%, 28%, 0.9);
+  margin: auto;
+  color: #fff;
+  width: 1000px;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 9px 9px 9px 9px;
 }
-
+.correct{
+  color: green;
+}
+.incorrect{
+  color: red;
+}
 p {
-  font-size: 18px;
+  font-size: 24px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+footer{
+  margin-left: 670px;
+}
+img {
+  width: 200px;
 }
