@@ -1,0 +1,32 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background: #F2f2f2;
+}
+
+#title {
+  font-size: 42px;
+  color: blue;
+}
+
+.navBar {
+  list-style-type: none;
+  display: inline;
+  font: 24px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background-color: #bfbfbf;
+  color: #8c8c8c;
+  width: 900px;
+}
+
+p {
+  font-size: 18px;
+}

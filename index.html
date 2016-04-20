@@ -2,28 +2,32 @@
 <html>
   <head>
     <title>Understanding Functions</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <header>
-      <h2>Steve Bachtel</h2>
+      <h2 id = "title">Steve Bachtel</h2>
     </header>
     <nav>
       <ul>
-        <li><a href="http://www.google.com">Google</a></li>
-        <li><a href="http://www.reddit.com">Reddit</a></li>
-        <li><a href="http://www.craigslist.org">Craigslist</a></li>
-        <li><a href="http://www.wsdot.com/ferries/schedule/ScheduleDetailByRoute.aspx?route=sea-bi">Bainbridge Ferry </a></li>
-        <li><a href="http://www.fark.com">Fark</a></li>
+        <li class = "navBar"><a href="http://www.google.com">Google</a></li>
+        <li class = "navBar"><a href="http://www.reddit.com">Reddit</a></li>
+        <li class = "navBar"><a href="http://www.craigslist.org">Craigslist</a></li>
+        <li class = "navBar"><a href="http://www.wsdot.com/ferries/schedule/ScheduleDetailByRoute.aspx?route=sea-bi">Bainbridge Ferry </a></li>
+        <li class = "navBar"><a href="http://www.fark.com">Fark</a></li>
       </ul>
     </nav>
     <main>
-      <p>Steve Bachtel was born and raised in Kansas City. While in college he moved to Moorhead, Mn. After College he moved to Aspen, Co and worked as a photographer for Aspen SkiCo company. Later that year he moved to Sitka, Alaska and worked as a deckhand for a fishing company. Before re-locating to Poulsbo, Washington.</p>
+      <p id="bio">Steve Bachtel was born and raised in Kansas City. While in college he moved to Moorhead, Mn. After College he moved to Aspen, Co and worked as a photographer for Aspen SkiCo company. Later that year he moved to Sitka, Alaska and worked as a deckhand for a fishing company. Before re-locating to Poulsbo, Washington.</p>
     </main>
     <section>
-      <p id='answerOne'></p>
-      <p id='answerTwo'></p>
-      <p id='answerThree'></p>
+      <p id="results"></p>
+      <p id='answerOne' class="qA"></p>
+      <p id='answerTwo' class="qA"></p>
+      <p id='answerThree' class="qA"></p>
+      <p id='answerFour' class="qA"></p>
+      <p id='answerFive' class="qA"></p>
+      <p id="totalRight"></p>
     </section>
     <footer><small>Steve Bachtel &copy; 2016</small></footer>
   <script src="app.js"></script>
