@@ -1,8 +1,8 @@
-### (N3) Assignment 3 Pull Request
+### (N5) Pull Request
 
 ##  1. Five questions using JavaScript
 - Question one, What color is a turtle?
-- Question two, Would you like to play a game?
+- Question two, Do you like playing games?
 - Question three, I'm thinking of a number between 1 and 20?
 - Question four, What is americas pastime?
 - Question five, What color is the state of Kansas Flag?

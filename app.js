@@ -8,7 +8,7 @@ var els = [
 
 var questions = [
   "Color is a turtle?",
-  "Would you like to play a game?",
+  "Do you like playing games?",
   "I am thinking of a number between 1 and 20?",
   "What is americas pastime?",
   "What color is the state of Kansas Flag?",
