@@ -5,6 +5,6 @@
 - Question two, Do you like sunny weather?
 - Question three, Did I do this assignment right?
 - Question four, I am thinking of a number.
-- Question five, Would you like to play a game?
+- Question five, Did you like my game?
 
 ## Author of work Steven Bachtel
